@@ -13,11 +13,11 @@ export class SpotifyService {
 
 
     setupPlayer() {
-        // your 'app-name/redirect-link' goes below for the auth redirect
-        var url = NSURL.URLWithString('anthmtest2://spotify-redirect')
+        // add your app name below for the spotify auth redirect
+        var url = NSURL.URLWithString('your-app-name-here://spotify-redirect')
 
-        // spotify client ID goes below
-        var spotifyClientId = 'dc716a7c84404d6c89c9f6e3547ce90a'
+        // your spotify client ID goes below
+        var spotifyClientId = 'your-spotify-client-id-goes-here'
 
         this.config = SPTConfiguration.configurationWithClientIDRedirectURL(spotifyClientId, url)
         console.log(this.config);

@@ -1,6 +1,6 @@
 {
   "nativescript": {
-    "id": "app.anthm.anthmtest2",
+    "id": "com.test.testapp",
     "tns-android": {
       "version": "6.2.0"
     },
